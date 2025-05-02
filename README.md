@@ -1,5 +1,3 @@
-# EXCEL-SKILLS-FOR-BUSINESS-SPECIALISATION-COURSERA
-
 # Introduction
 
 ## Purpose of this Course
@@ -367,7 +365,6 @@ I based my example off of the great work from Kevin Stratvert’s channel:
 [Excel Solver & Goal Seek Tutorial](https://www.youtube.com/watch?v=UD9e-gQCQsE)
 
 ![Untitled](attachment:892aef35-c888-400f-a78a-2c6ee1dd7b8f:Untitled.png)
-
 ## Excel Solver
 
 The Excel solver is a very powerful tool but not one that I’ve used consistently. It is meant to solve complex models and equations that you’ve built out in Excel (oftentimes Financial or Supply Chain models) and give you a targeted or optimal solution. I’ve tagged a video here by Leila Gharani (or you can watch the video above by Kevin Stratvert) which cover usecases of the Excel solver. 
