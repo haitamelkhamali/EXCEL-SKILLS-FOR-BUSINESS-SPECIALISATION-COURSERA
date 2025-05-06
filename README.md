@@ -56,7 +56,7 @@ If you’re using the standard Excel format then the file you open will be calle
 - **Blue -** The sheet, this is where you input and edit your data
 - **Pink -** This is a tab that denotes which sheet you’re currently on
 
-![Untitled](attachment:a9753ab3-36b1-4e6d-8353-8c5cd5e69d6f:Untitled.png)
+
 
 ### File Formats
 
@@ -84,7 +84,7 @@ You can see that the General data type and Excel’s misinterpretation of certai
 
 This converts any data you have into a numerical representation. It will default to showing two decimal places although you can increase and decrease the number of decimal places as you please later using: 
 
-![Untitled](attachment:c2781b36-be2e-44d5-be9d-b74b35773aad:Untitled.png)
+
 
 There are other specified versions of the numerical data type including: 
 
@@ -118,7 +118,7 @@ This is like a “string” data type in many
 
 These include data types that are usually special for a given geography. In the US we have types that allow us to format our postal codes and social security numbers correctly (although I can’t imagine storing social security numbers in an Excel workbook is at all secure. 
 
-![Untitled](attachment:d15c34e6-af03-42ea-a9a7-192cda99257c:Untitled.png)
+
 
 ### Custom
 
@@ -134,49 +134,49 @@ Aggregation functions are applied across a range of cells and summarize their va
 
 An aggregation function that adds up all of the values of its inputs. It only really works with numbers and formats that can be readily converted into numbers (like dates).
 
-![3E55A0AF-5CF0-4CE3-A78A-93964A1E6814.jpeg](attachment:67e63596-417d-4907-98dd-3328cae28467:3E55A0AF-5CF0-4CE3-A78A-93964A1E6814.jpeg)
+
 
 **AVERAGE**
 
 An aggregation function that outputs the average of all of its inputs. Like the SUM function, works well with numbers and formats that can be converted into numbers like dates.
 
-![36B7E658-3487-4386-80CC-05C4E01E55FB.jpeg](attachment:3edcba07-69ff-454a-ac20-d686b6b829d0:36B7E658-3487-4386-80CC-05C4E01E55FB.jpeg)
+
 
 **COUNT**
 
 An aggregation function that counts the number of non-blank cells within its inputs. Works with any data format as it just counts for content in cells.
 
-![37F78396-36CF-4F5A-A549-F392F3B7BA01.jpeg](attachment:258feb19-33b1-4dad-99fe-92d27365fbd2:37F78396-36CF-4F5A-A549-F392F3B7BA01.jpeg)
+
 
 **MEDIAN**
 
 An aggregation function that outputs the median of all of its inputs. Like the SUM function, works well with numbers and formats that can be converted into numbers like dates.
 
-![E9DE0AA3-B39F-4FC1-B246-04996C1EFE42.jpeg](attachment:24c59d02-40e6-4085-a311-eb3f939d4c47:E9DE0AA3-B39F-4FC1-B246-04996C1EFE42.jpeg)
+
 
 **MODE**
 
 An aggregation function that outputs the most common value of its inputs.  Like the SUM function, works well with numbers and formats that can be converted into numbers like dates.
 
-![2EABF4A6-DEC3-4B4C-8578-EEA044F5CB4D.jpeg](attachment:97df3fb6-2770-48ad-a04d-9c208b254d35:2EABF4A6-DEC3-4B4C-8578-EEA044F5CB4D.jpeg)
+
 
 **MODE.SNGL**
 
 This is the modern form of the MODE function and returns the only a single value like the MODE function. 
 
-![8BC0C4E3-6A14-43B1-BAC8-80B647D8C93D.jpeg](attachment:4efebb8f-272c-41b2-9dd9-c8e1527486c8:8BC0C4E3-6A14-43B1-BAC8-80B647D8C93D.jpeg)
+
 
 **MODE.MULT**
 
 This outputs an array of values for every value that could be considered the mode of the dataset. 
 
-![672D8E47-8E53-4636-9441-C0E2F47B1F82.jpeg](attachment:bb5f754a-620e-4e75-8944-641d54c5a591:672D8E47-8E53-4636-9441-C0E2F47B1F82.jpeg)
+
 
 **MAX/MIN**
 
 MAX and MIN are aggregation functions that determine the largest or smallest values of their inputs. Like the SUM function, works well with numbers and formats that can be converted into numbers like dates.
 
-![DFFFAA84-3E89-4987-A5EB-FF4C4958E787.jpeg](attachment:3f84b46c-02a8-4d3b-b35e-f31bc761470f:DFFFAA84-3E89-4987-A5EB-FF4C4958E787.jpeg)
+
 
 ### Lookups
 
@@ -186,7 +186,7 @@ Lookups allow you to match values from one range to references in another.
 
 VLOOKUPs are the most common type of lookup and can be used to being data from one range to match another. The parameters of a VLOOKUP are as follows. 
 
-![86895805-23D4-40FF-8F64-A107C5A41D98.jpeg](attachment:16a5a916-1b42-4552-867c-91a980ac56ae:86895805-23D4-40FF-8F64-A107C5A41D98.jpeg)
+
 
 - lookup_value
     - The value that you want to look up
@@ -209,7 +209,7 @@ This is a newer version of the VLOOKUP/HLOOKUP formula. Depending on your versio
 
 XLOOKUP is a much more flexible version of VLOOKUP and HLOOKUP because it doesn’t require your lookup array (the list of values you’re matching) to be on the left-hand side of your return array (the list of values you’re inputting).
 
-![0902EBB2-4CC3-4FB1-8565-099EB7936F3A.jpeg](attachment:246781c5-184e-488c-895a-edc4d1f98575:0902EBB2-4CC3-4FB1-8565-099EB7936F3A.jpeg)
+
 
 - `lookup_value`
     - The value you want to lookup
@@ -258,13 +258,13 @@ Let’s say that you want to have multiple conditions, this is where IF statemen
 
 - =IF(AND(A2>=3, A2<=5), ">=3 AND <= 5", "None")
 
-![99342C37-DFD0-42CF-9BA0-BDE4BEB91B58.jpeg](attachment:65b1acb9-9533-43ce-933c-5ea5f6e5d79e:99342C37-DFD0-42CF-9BA0-BDE4BEB91B58.jpeg)
+
 
 **SUMIF(S)**
 
-![FD94B02F-7656-41DB-AF7C-779F9D30D95C.jpeg](attachment:4a04ed97-ce91-440a-9922-b03a922d99b3:FD94B02F-7656-41DB-AF7C-779F9D30D95C.jpeg)
 
-![1743C2E6-814A-4B3A-B3F4-C93E9A8664DF.jpeg](attachment:d6356051-18ae-4ee4-a06a-8923aa4af75d:1743C2E6-814A-4B3A-B3F4-C93E9A8664DF.jpeg)
+
+
 
 **COUNTIF**
 
@@ -292,7 +292,7 @@ Trims off any blanks on the ends of any strings you have. This can be particular
 
 A lot of CSV’s import with the extra spaces in the top headers. 
 
-![03974108-C19F-4DE6-838A-2D3B334318F2.jpeg](attachment:7beecb6d-bf72-4dfb-a121-2e9650f0a5c6:03974108-C19F-4DE6-838A-2D3B334318F2.jpeg)
+
 
 [Advanced Excel Formulas Must Know](https://corporatefinanceinstitute.com/resources/excel/study/advanced-excel-formulas-must-know/)
 
